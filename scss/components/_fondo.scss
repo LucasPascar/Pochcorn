@@ -1,0 +1,26 @@
+/**video*/
+body {
+    margin: 0;
+    width: 100%;
+    max-height: 10000px;
+}
+
+.sect {
+    width: 100%;
+    max-height: 2000px;
+
+}
+
+video {
+
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translateX(-50%) translateY(-50%);
+
+    z-index: -2;
+}

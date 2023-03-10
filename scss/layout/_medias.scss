@@ -1,0 +1,129 @@
+@media only screen and (max-width:1200px) {
+    p {
+        font-size: 40px;
+    }
+}
+
+/**medias index*/
+@media only screen and (max-width:770px) {
+
+    .frase h1 {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        font-size: 70px;
+    }
+
+    h2 {
+        font-size: 20px;
+
+        span {
+            font-size: 50px;
+
+        }
+    }
+
+
+    p {
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /**medias footer*/
+    .footerbrands {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        width: 100%;
+
+
+        h3 {
+            display: flex;
+            color: white;
+            padding-top: 70px;
+            font-size: 20px;
+            font-family: $fontprimaria;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .iconsf {
+            display: flex;
+            flex-direction: row;
+            bottom: 0;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            width: 100%;
+            font-size: 60px;
+        }
+    }
+
+    .mundo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 563px;
+        color: white;
+
+    }
+/** medias servicios*/
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    height: 2200px;
+}
+
+.cardser {
+    height: 600px;
+    width: 400px;
+    border-radius: 3px;
+    border: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+
+    p {
+        color: black;
+        font-size: 20px;
+    }
+
+    img {
+     
+        width: 400px;
+        height: 600px;
+
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        text-decoration: none;
+        font-size: 30px;
+        font-family: $fontprimaria;
+    }
+}
+
+}
+
+
+
+
+
+
+
+
+

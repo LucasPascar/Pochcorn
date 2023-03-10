@@ -1,0 +1,25 @@
+/** nav**/
+.icon {
+    height: 100px;
+    width: 100px;
+
+    &:hover{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.ul {
+    display: flex;
+    flex-direction: row-reverse;
+
+    li a {
+        font-size: 30px;
+        color:$colorsecundario;
+        &:hover{
+            color: white;
+            font-size: 40px;
+        }
+    }
+}
+

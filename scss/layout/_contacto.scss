@@ -1,0 +1,97 @@
+.form {
+    max-height: 1500px;
+    max-width: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../fondoform.gif");
+}
+
+.inputnya {
+    width: 250px;
+    height: 50px;
+}
+
+.inputname {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.inputmail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.inputmailt {
+    display: flex;
+    width: 530px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.textarea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputtextarea {
+    width: 530px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnco {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.btnn {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    font-family: $fontprimaria;
+    justify-content: center;
+    align-items: center;
+    border: solid white;
+    background-color: white;
+
+    &:hover {
+        background-color: $colorsecundario;
+        font-size: 40px;
+    }
+
+}
+
+
+
+
+
+
+.imgconta {
+    width: 300px;
+    height: 300px;
+    rotate: 90°;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imgcontaastro{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.imgcontaastro2{
+    display: flex;
+    flex-direction: row;
+}

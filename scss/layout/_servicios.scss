@@ -1,0 +1,126 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+    padding-top: 40px;
+}
+
+.cardEs {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+    padding-top: 40px;
+}
+
+.cardser {
+    height: 600px;
+    width: 400px;
+    border-radius: 3px;
+    border: none;
+    display: flex;
+    align-items: ce;
+
+    p {
+        color: black;
+        font-size: 20px;
+    }
+
+    img {
+        height: 600px;
+        width: 400px;
+
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        text-decoration: none;
+        font-size: 30px;
+        font-family: $fontprimaria;
+    }
+}
+
+
+h1 {
+    color: white;
+    font-family: $fontprimaria;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+}
+
+h2 {
+    color: white;
+    font-family: $fontprimaria;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+    font-size: 50px;
+
+  margin: 0 0.5rem;
+
+  animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 5s; /* don't forget to set a duration! */
+
+}
+
+
+/**btn hover**/
+.ov-btn-slide-top {
+    background: $colorbotones;
+    /* color de fondo */
+    font-family: $fontprimaria;
+    color: white;
+    /* color de fuente */
+    border: 2px solid white;
+    /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 3px;
+    /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.ov-btn-slide-top:hover {
+    color: #fff;
+    /* color de fuente hover */
+}
+
+.ov-btn-slide-top::after {
+    content: "";
+    background: $colorsecundario;
+    /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: 0;
+    right: 0;
+    top: -100%;
+    bottom: 100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.ov-btn-slide-top:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
