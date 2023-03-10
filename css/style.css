@@ -158,6 +158,10 @@ br {
   display: flex;
   flex-direction: row-reverse; }
 
+.inputname2 {
+  display: flex;
+  flex-direction: row; }
+
 .inputmail {
   display: flex;
   flex-direction: column;
@@ -219,11 +223,9 @@ br {
   display: flex;
   flex-direction: row; }
 
-.container {
-  width: 3000px;
-  max-height: 2500px; }
-  .container img {
-    width: 100%; }
+.fondoNos {
+  width: 100%;
+  height: auto; }
 
 .cards {
   display: flex;
@@ -417,3 +419,50 @@ h2 {
       text-decoration: none;
       font-size: 30px;
       font-family: "Antonio", sans-serif; } }
+
+@media only screen and (max-width: 500px) {
+  /** medias contacto*/
+  .inputname {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .inputname2 {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .inputmail {
+    padding-top: 10px;
+    width: 100%px; }
+  .inputmailt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px; }
+  .textarea {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .inputtextarea {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  /**medias footer*/
+  .footerbrands {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%; }
+  .iconsf {
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    font-size: 60px; } }
