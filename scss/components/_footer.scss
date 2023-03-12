@@ -46,7 +46,13 @@ footer {
 }
 
 
+.brandinsta {
+    color: $colorsecundario;
 
+    &:hover {
+        color: rgb(218, 25, 70);
+    }
+}
 
 .brandfb {
     color: $colorsecundario;
@@ -64,10 +70,18 @@ footer {
     }
 }
 
-.brandinsta {
+.branddis {
     color: $colorsecundario;
 
     &:hover {
-        color: rgb(218, 25, 70);
+        color: rgb(88, 101, 242);
+    }
+}
+
+.brandtik{
+    color: $colorsecundario;
+
+    &:hover {
+        color: white;
     }
 }

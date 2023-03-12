@@ -1,9 +1,8 @@
-/** nav**/
 .icon {
     height: 100px;
     width: 100px;
 
-    &:hover{
+    &:hover {
         width: 150px;
         height: 150px;
     }
@@ -15,11 +14,12 @@
 
     li a {
         font-size: 30px;
-        color:$colorsecundario;
-        &:hover{
+        color: $colorsecundario;
+        font-family: $fontprimaria;
+
+        &:hover {
             color: white;
             font-size: 40px;
         }
     }
 }
-
