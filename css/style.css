@@ -492,7 +492,9 @@ h2 {
       width: 400px;
       text-decoration: none;
       font-size: 30px;
-      font-family: "Antonio", sans-serif; } }
+      font-family: "Antonio", sans-serif; }
+  h1 {
+    font-size: 30px; } }
 
 @media only screen and (max-width: 500px) {
   /** medias contacto*/
